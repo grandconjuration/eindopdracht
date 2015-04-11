@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/morseservice/encoderesponse/" 
+xmlns:tns="http://www.example.org/morseservice/encoderesponse/" 
+elementFormDefault="qualified">
+	<xsd:element name="EncodeResponse" type="tns:EncodeResponse"/>
+	<xsd:complexType name="EncodeResponse">
+		<xsd:sequence>
+			<xsd:element name="morse" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>	
+</xsd:schema>

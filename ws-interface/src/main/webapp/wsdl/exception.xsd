@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/morseservice/exception/" 
+xmlns:tns="http://www.example.org/morseservice/exception/" 
+elementFormDefault="qualified">
+	<xsd:element name="MorseServiceException" type="tns:MorseServiceException"/>
+	<xsd:complexType name="MorseServiceException">
+		<xsd:sequence>
+			<xsd:element name="code" type="xsd:integer"/>
+			<xsd:element name="message" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>	
+</xsd:schema>

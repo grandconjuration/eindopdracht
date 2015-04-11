@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/morseservice/encoderequest/" 
+xmlns:tns="http://www.example.org/morseservice/encoderequest/" 
+elementFormDefault="qualified">
+	<xsd:element name="EncodeRequest" type="tns:EncodeRequest"/>
+	<xsd:complexType name="EncodeRequest">
+		<xsd:sequence>
+			<xsd:element name="text" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
