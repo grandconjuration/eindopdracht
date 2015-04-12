@@ -75,7 +75,7 @@ targetNamespace="http://www.example.org/morseservice/">
   </wsdl:binding>
   <wsdl:service name="MorseService">
     <wsdl:port binding="tns:MorseServiceSoap" name="MorseServiceSoap">
-      <soap:address location="http://localhost:8080/ws-producer/ws-producer"/>
+      <soap:address location="http://java.simonwhiteley.nl/ws-producer/ws-producer"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

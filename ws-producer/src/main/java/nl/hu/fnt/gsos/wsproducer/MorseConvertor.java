@@ -32,7 +32,7 @@ public class MorseConvertor {
         morseToText.put("h", "....");
         morseToText.put("i", "..");
         morseToText.put("j", ".---");
-        morseToText.put("k", "-.");
+        morseToText.put("k", "-.-");
         morseToText.put("l", ".-..");
         morseToText.put("m", "--");
         morseToText.put("n", "-.");
